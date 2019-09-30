@@ -8,8 +8,8 @@
   "license": "MIT",
   "config": {
     "dev": "Library/Application Support/Franz/recipes/dev/jira",
-    "serviceURL": "https://{teamId}.atlassian.net",
+    "serviceURL": "https://jira.{teamId}",
     "hasTeamId": true,
-    "urlInputSuffix": ".atlassian.net"
+    "urlInputPrefix": "https://jira."
   }
 }
